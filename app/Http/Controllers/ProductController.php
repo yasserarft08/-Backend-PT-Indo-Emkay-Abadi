@@ -10,7 +10,7 @@ class ProductController extends Controller
     // GET /api/products - Menampilkan daftar produk
     public function index()
     {
-        // return nya harus gini ser. jangan langsung datanya hmmmm
+        
         return response()->json(Product::all());
     }
 
